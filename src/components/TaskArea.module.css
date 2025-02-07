@@ -1,0 +1,150 @@
+.taskContentContainer{
+  display: flex;
+  flex-direction: column;
+  width: 46rem;
+  height: 100%;
+
+}
+.headerTaskContainer{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.createdCounterTaskContent{
+
+color: var(--blue);
+font-size: 0.8rem;
+
+
+}
+
+.doneCounterTaskContent{
+  color: var(--purple);
+  font-size: 0.8rem;
+}
+.contentSpan{
+  margin-left: 0.5rem;
+  background-color: var(--gray-400);
+  width: 1.25rem;
+  height: 1.25rem;
+  font-size:0.75rem ;
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerContainer{
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+}
+
+.taskContent{
+  display: flex;
+  flex-direction: column;
+}
+.taskContentContainerDiv{
+  display: flex;
+  align-items: center;
+  margin-top: 0.875rem;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 0.8rem;
+  width: 46rem;
+  height: auto;
+  border: solid;
+  border-color: var(--gray-500);
+  border-radius: 0.5rem;
+  padding-bottom: 0.9rem;
+}
+
+.contentImgSize{
+  width:  3.5rem;
+  height: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contetContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  max-height: 100%;
+  margin-bottom: 1rem;
+ 
+  }
+
+
+ strong {
+  line-height: 1.6;
+  color: var(--gray-300);
+}
+
+ textarea{
+  height: 3.35rem;
+  width:39rem ;
+  border-radius: 0.6rem;
+  background-color: var(--gray-500);
+  padding-left: 1rem;
+  padding: 1rem;
+  border: 0.1rem solid;
+  border-color: var(--gray-500);
+  resize: 0;
+  color: var(--gray-100);
+  resize: none;
+  
+}
+
+.create {
+
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  height: 3.35rem;
+  width: 5.125rem;
+  border-radius: 0.6rem;
+  margin-left: 0.5rem;
+  border: 0.1rem solid;
+  border-color: var(--gray-500);
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+
+}
+ 
+
+form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  resize: 0;
+  
+ 
+}
+.contentImgSizePlus{
+  width:  1rem;
+  height: 1rem;
+  margin-left: 0.5rem;
+}
+.header{
+  background: var(--gray-700);
+  height: 12.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentHeaderLogo {
+  background: linear-gradient(to right, #4EA8DE 45%, #8284FA 0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
+  }
+
+  .rocketImage{
+    width: 1.375rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+  }

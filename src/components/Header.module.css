@@ -1,0 +1,20 @@
+.header{
+  background: var(--gray-700);
+  height: 12.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentHeaderLogo {
+  background: linear-gradient(to right, #4EA8DE 45%, #8284FA 0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
+  }
+
+  .rocketImage{
+    width: 1.375rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+  }

@@ -1,0 +1,14 @@
+
+.contentImgSize{
+  width:  3.5rem;
+  height: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+.noTaskDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  
+}
