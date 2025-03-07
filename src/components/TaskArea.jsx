@@ -6,12 +6,14 @@ import { NoTask } from './noContent'
 
 
 
-export function TaskArea (){
+export function TaskArea() {
+  function doneTasks() {
+    console.log(doneTasks)
+  }
 
   const [task, setTask] = useState([])
 
-  const [newTaskInputText, setNewTaskInputText ] = useState('')
-
+  const [newTaskInputText, setNewTaskInputText] = useState('')
 
   function handleCreateNewTask() {
     event.preventDefault()
@@ -31,6 +33,8 @@ export function TaskArea (){
     })
     setTask(taskWithoutDeletedOne)
   }
+
+  const numberOftasks = task.length
 
   return (
     <div>
@@ -60,7 +64,7 @@ export function TaskArea (){
                 tarefas criadas
               </strong>
               <span className={styles.contentSpan} id="value">
-                {task.length}
+                {numberOftasks}
               </span>
             </div>
             <div className={styles.headerTaskContainer}>
@@ -80,7 +84,7 @@ export function TaskArea (){
                     <Task
                       content={task}
                       deleteTask={deleteTask}
-                      toggleToConcludeTask={checked}
+                      onDoneTasks={doneTasks}
                     />
                   )
                 })
